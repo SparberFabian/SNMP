@@ -23,14 +23,14 @@ public class Test {
     public static final String WRITE_COMMUNITY= "private";
     public static final int mSNMPVersion = 0;
     public static final String OID_UPS_OUTLET_GROUP1 = "1.3.6.1.4.1.318.1.1.1.12.3.2.1.3.1";
-    public static final String OID_SYS_DESCR="1.3.6.1.2.1.1.4.0";
+    public static final String OID_SYS_NAME="1.3.6.1.2.1.1.5.0";
 
     public static void main(String[] args) {
         try {
             String strIPAddress = "127.0.0.1";
             Test objSNMP = new Test();
             int Value = 2;
-            String batteryCap =objSNMP.snmpGet(strIPAddress,READ_COMMUNITY,OID_SYS_DESCR);
+            String batteryCap =objSNMP.snmpGet(strIPAddress,READ_COMMUNITY,OID_SYS_NAME);
         } catch (Exception e)
         {
             e.printStackTrace();
