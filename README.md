@@ -17,4 +17,5 @@ IP-Adressen als Benutzer eingegeben werden und müssen nicht im Code ausgetausch
 nur Netzwerke der Klasse C verarebitet werden woran aber noch gearbeitet wird. In der getNetwork Methode wird auf jede erreichbare 
 IP ein SNMPget ausgeführt, dass bei Geräten die kein SNMP aktiviert haben oder SNMP nicht konfiguriert haben eine 
 NullPointerException zurückgeben die noch nicht behandelt wird aber das Programm nicht beendet. Im out Ordner befindet sich jetzt auch 
-eine jar-Datei.
+eine jar-Datei. Die jar datei lässt sich ausführen indem man mit der Eingabeaufforderung in den Ordner navigiert und dann mit "java -jar name.jar"
+die Datei ausführt.
