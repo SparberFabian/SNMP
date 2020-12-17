@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="snmptest:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/snmptest_jar</output-path>
+    <root id="archive" name="snmptest.jar">
+      <element id="module-output" name="snmptest" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../SNMP/lib/snmp4j-2.8.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
