@@ -16,4 +16,5 @@ Für den 3. Meilenstein habe ich das Programm erweitert und ein getNetwork zum S
 IP-Adressen als Benutzer eingegeben werden und müssen nicht im Code ausgetauscht werden. Bei der getNetwork Operation werden derzeit 
 nur Netzwerke der Klasse C verarebitet werden woran aber noch gearbeitet wird. In der getNetwork Methode wird auf jede erreichbare 
 IP ein SNMPget ausgeführt, dass bei Geräten die kein SNMP aktiviert haben oder SNMP nicht konfiguriert haben eine 
-NullPointerException zurückgeben die noch nicht behandelt wird aber das Programm nicht beendet. 
+NullPointerException zurückgeben die noch nicht behandelt wird aber das Programm nicht beendet. Im out Ordner befindet sich jetzt auch 
+eine jar-Datei.
