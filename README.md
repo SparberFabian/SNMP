@@ -17,3 +17,8 @@ IP-Adressen als Benutzer eingegeben werden und müssen nicht im Code ausgetausch
 nur Netzwerke der Klasse C verarebitet werden woran aber noch gearbeitet wird. In der getNetwork Methode wird auf jede erreichbare 
 IP ein SNMPget ausgeführt, dass bei Geräten die kein SNMP aktiviert haben oder SNMP nicht konfiguriert haben eine 
 NullPointerException zurückgeben die noch nicht behandelt wird aber das Programm nicht beendet. 
+
+#Abgabe
+Für die Abgabe habe ich noch die Änderungen mit dem Communitiy String unterstützen hinzugefügt und eine readMIB Methode mit der
+Informationen eiens Mibfiles in eine Hashmap hinzugefügt werden damit auch der name der OID eingegeben werden und die operation 
+durchgeführt wird. Ich habe auch eine Methode hinzugefügt die es ermöglicht eine SNMP trap versenden kann. 

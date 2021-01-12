@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MibbleBrowser">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/mibble-2.10.1/MibbleBrowser.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
